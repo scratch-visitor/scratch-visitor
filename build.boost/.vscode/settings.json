@@ -1,0 +1,4 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.includePath": ["${BOOST_ROOT}/include/boost-1_75"]
+}
