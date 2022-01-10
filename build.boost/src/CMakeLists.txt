@@ -1,12 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
 ## source files.
-set(FILE_SOURCES
- "main.cpp"
-)
+FILE(GLOB_RECURSE FILE_SOURCES "*.cpp")
 ## header files.
-set(FILE_HEADERS
-)
+FILE(GLOB_RECURSE FILE_HEADERS "*.hpp")
 
 ## this project is for executable file.
 add_executable(${CMAKE_PROJECT_NAME}
